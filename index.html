@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Navbar with Media Queries</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="nav-wrap">
+    <nav role="navigation" aria-label="Primary">
+      <!-- Brand -->
+      <a href="#" class="brand">
+       
+        <div class="brand-text">
+          <div>hamza</div>
+   
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <ul class="nav-links">
+        <li ><a href="#home">Home</a></li>
+        <li ><a  href="#about">About</a></li>
+        <li ><a  href="#culture">Culture</a></li>
+        <li ><a  href="#math">Mathematics</a></li>
+        <li ><a  href="#superstition">Superstition</a></li>
+      </ul>
+
+      <!-- Controls: icons, search, CTA -->
+      <div class="controls">
+        <button class="icon-btn" aria-label="Search">search</button>
+        <button class="icon-btn" aria-label="Theme toggle">Theme</button>
+        <a class="cta" href="#discover">Discover</a>
+
+        <!-- Hamburger for mobile -->
+        <button class="hamburger" id="hamburger">bar</button>
+      </div>
+    </nav>
+
+    <div id="mobile-drawer" class="mobile-drawer">
+      <a class="cta" href="#discover">Discover</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#culture">Culture</a>
+      <a href="#math">Mathematics</a>
+      <a href="#superstition">Superstition</a>
+      <div>Contact: hello@example.com</div>
+    </div>
+  </div>
+
+
+</body>
+</html>
